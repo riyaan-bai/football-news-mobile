@@ -56,20 +56,6 @@ class LeftDrawer extends StatelessWidget {
               );
             },
           ),
-          ListTile(
-            leading: const Icon(Icons.article_outlined),
-            title: const Text('See Football News'),
-            onTap: () {
-              Navigator.pop(context);
-              ScaffoldMessenger.of(context)
-                ..hideCurrentSnackBar()
-                ..showSnackBar(
-                  const SnackBar(
-                    content: Text("Halaman 'See News' belum diimplementasi."),
-                  ),
-                );
-            },
-          ),
         ],
       ),
     );
