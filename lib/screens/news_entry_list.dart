@@ -20,7 +20,7 @@ class _NewsEntryListPageState extends State<NewsEntryListPage> {
     // If you using chrome,  use URL http://localhost:8000
 
     final response = await request.get(
-      'http://riyaan-baihaqi-footballnews.pbp.cs.ui.ac.id/json/',
+      'http://localhost:8000/json/',
     );
 
     // Decode response to json format
